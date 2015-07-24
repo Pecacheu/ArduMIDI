@@ -1,0 +1,155 @@
+#####################################
+#   Code Coloring Map For ARDUMIDI  #
+#####################################
+
+#####################################
+#        Datatypes (KEYWORD1)       #
+#####################################
+
+ArduMIDI	KEYWORD1
+CommandType	KEYWORD1
+ThruMode	KEYWORD1
+Channel	KEYWORD1
+
+#####################################
+# Methods and Functions (KEYWORD2/3)#
+#####################################
+
+//Main Functions:
+end	KEYWORD2
+begin	KEYWORD2
+setChannel	KEYWORD2
+setThruMode	KEYWORD2
+scanForData	KEYWORD3
+
+//Extra Functions:
+getEventLength	KEYWORD2
+commandTypeToString	KEYWORD2
+
+//Send Functions:
+noteOn	KEYWORD2
+noteOff	KEYWORD2
+keyPressure	KEYWORD2
+modeChange	KEYWORD2
+sendSysEx	KEYWORD2
+songSelect	KEYWORD2
+tuneRequest	KEYWORD2
+timingClock	KEYWORD2
+activeSense	KEYWORD2
+resetAll	KEYWORD2
+startPlay	KEYWORD2
+stopPlay	KEYWORD2
+controlChange	KEYWORD2
+programChange	KEYWORD2
+channelPressure	KEYWORD2
+pitchBendChange	KEYWORD2
+songPosition	KEYWORD2
+continuePlay	KEYWORD2
+sendMidiEvent	KEYWORD2
+sendMidiEventRaw	KEYWORD2
+quarterTimeFrame	KEYWORD2
+
+//Set Handler Functions:
+setHandlerAny	KEYWORD2
+setHandlerSysEx	KEYWORD2
+setHandlerStart	KEYWORD2
+setHandlerStop	KEYWORD2
+setHandlerReset	KEYWORD2
+setHandlerNoteOn	KEYWORD2
+setHandlerNoteOff	KEYWORD2
+setHandlerPitchBend	KEYWORD2
+setHandlerContinue	KEYWORD2
+setHandlerChannelMode	KEYWORD2
+setHandlerKeyPressure	KEYWORD2
+setHandlerControlChange	KEYWORD2
+setHandlerProgramChange	KEYWORD2
+setHandlerQuarterFrame	KEYWORD2
+setHandlerSongPosition	KEYWORD2
+setHandlerSongSelect	KEYWORD2
+setHandlerTuneRequest	KEYWORD2
+setHandlerTimingClock	KEYWORD2
+setHandlerActiveSense	KEYWORD2
+setHandlerChannelPressure	KEYWORD2
+
+//Clear Handler Functions:
+clearHandlerAny	KEYWORD2
+clearHandlerNoteOn	KEYWORD2
+clearHandlerNoteOff	KEYWORD2
+clearHandlerSysEx	KEYWORD2
+clearHandlerStart	KEYWORD2
+clearHandlerStop	KEYWORD2
+clearHandlerReset	KEYWORD2
+clearHandlerPitchBend	KEYWORD2
+clearHandlerChannelMode	KEYWORD2
+clearHandlerKeyPressure	KEYWORD2
+clearHandlerSongSelect	KEYWORD2
+clearHandlerTuneRequest	KEYWORD2
+clearHandlerTimingClock	KEYWORD2
+clearHandlerContinue	KEYWORD2
+clearHandlerActiveSense	KEYWORD2
+clearHandlerControlChange	KEYWORD2
+clearHandlerProgramChange	KEYWORD2
+clearHandlerChannelPressure	KEYWORD2
+clearHandlerQuarterFrame	KEYWORD2
+clearHandlerSongPosition	KEYWORD2
+
+//Variables:
+# myVar	KEYWORD3
+
+#####################################
+#      Definitions (LITERAL1/2)     #
+#####################################
+
+//Defs:
+# myDef	LITERAL1
+
+//Enums:
+
+//CommandType Enum:
+NOTE_ON	LITERAL2
+INVALID	LITERAL2
+START	LITERAL2
+STOP	LITERAL2
+NO_NEW_MSG	LITERAL2
+NOTE_OFF	LITERAL2
+CTRL_CHANGE	LITERAL2
+PROG_CHANGE	LITERAL2
+PITCH_BEND	LITERAL2
+SYSEX_START	LITERAL2
+SONG_POS	LITERAL2
+SONG_SELECT	LITERAL2
+TUNE_REQ	LITERAL2
+SYSEX_END	LITERAL2
+CONTINUE	LITERAL2
+SOFT_RESET	LITERAL2
+KEY_PRESSURE	LITERAL2
+CHANNEL_MODE	LITERAL2
+Q_TIME_FRAME	LITERAL2
+TIMING_CLOCK	LITERAL2
+ACTIVE_SENSE	LITERAL2
+CHANNEL_PRESSURE	LITERAL2
+
+//Channel Enum:
+CH1	LITERAL2
+CH2	LITERAL2
+CH3	LITERAL2
+CH4	LITERAL2
+CH5	LITERAL2
+CH6	LITERAL2
+CH7	LITERAL2
+CH8	LITERAL2
+CH9	LITERAL2
+CH10	LITERAL2
+CH11	LITERAL2
+CH12	LITERAL2
+CH13	LITERAL2
+CH14	LITERAL2
+CH15	LITERAL2
+CH16	LITERAL2
+CH_ALL	LITERAL2
+
+//ThruMode Enum:
+FORWARD_OFF	LITERAL2
+FORWARD_ALL	LITERAL2
+FORWARD_OTHER	LITERAL2
+FORWARD_SELF	LITERAL2

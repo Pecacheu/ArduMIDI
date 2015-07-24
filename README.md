@@ -1,2 +1,2 @@
-# ArduMIDI
-Better Arduino MIDI Library
+# ArduMIDI Library v2.1
+The Better Arduino MIDI Library
