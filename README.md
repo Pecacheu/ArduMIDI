@@ -9,11 +9,13 @@ It's ridiculous that there are no good MIDI libraries for the Arduino, so I deci
 Obviously.
 2. **Actually fully implements the MIDI standard**<br>
 Don't worry, it'll work with that really old synth in the closet.
-3. **Follows modern C coding standards**<br>
+3. **Direct MIDI data through any serial interface**<br>
+Simply specify the serial object when initializing the library.
+4. **Follows modern C coding standards**<br>
 What is it with Arduino libraries not folowing coding standards?
-4. **Built-in error checking and stabilization**<br>
+5. **Built-in error checking and stabilization**<br>
 This is a common feature with MIDI implementations.
-5. **Space-efficent, clean, and consistant code**<br>
+6. **Space-efficent, clean, and consistant code**<br>
 Go ahead, take a look. I even managed to fit everything into two files.
 
 ## Installation:
