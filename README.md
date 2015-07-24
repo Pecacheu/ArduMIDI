@@ -1,5 +1,5 @@
 # ArduMIDI Library v2.1
-##### The Better Arduino MIDI Library
+##### A Better Arduino MIDI Library
 It's ridiculous that there are no good MIDI libraries for the Arduino, so I decided to make one. From scratch.
 <br>So, I looked up the MIDI protocol documentation and started coding.
 <br>This is the result.
