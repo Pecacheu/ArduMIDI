@@ -7,7 +7,7 @@
 #include <ArduMIDI.h>
 
 //Create new instance of ArduMIDI library:
-//ArduMIDI(SerialObject (Serial, Serial1...), ListenChannel (CH1-CH16 or CH_ALL)
+//ArduMIDI(SerialObject (Serial, Serial1...), ListenChannel (CH1-CH16 or CH_ALL))
 ArduMIDI midi = ArduMIDI(Serial1, CH1);
 
 void setup() {
